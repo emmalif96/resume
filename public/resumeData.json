@@ -1,0 +1,190 @@
+{
+  "main": {
+    "home": "Front page",
+    "about": "About me",
+    "resume": "Resume",
+    "portfolio": "My projects",
+    "contact": "Contact",
+    "name":"Emma Líf Jónsdóttir",
+    "occupation":"computer scientist",
+    "predescription":"I am 23 years old ",
+    "description":" graduated from the University of Iceland. I am a positive person and a progressive thinker that is looking for a job in an outstanding team to work with",
+    "image":"profilepic.jpg",
+    "bio":"Originally I grew up on a farm near Egilsstaðir in East Iceland. I am half australian and have an australian citizenship, and when I was 14 years old I moved there with my family. Moved back to Iceland when I was suppose to begin in Upper Seconday School. As soon as I graduated I moved to Denmark to chase my hobbies where I attended a sports school. I got home after a year and then I enrolled to the University of Iceland.",
+    "bio1":"Since I can remember I have been participating in gymnastics and it's my main hobby, I practiced it for a long time. Since I started in upper secondary school I have been coaching competitive gymnastic teams and travelled the country to attend competitions. I got a gymnastics judges certificate and today I am a well respected gymnastics judge. Throughout my childhood I practiced chess and I was considered very good at it considering I won many trophies. When I was young I did alot of horse riding and spent my summers guiding tourists on the highland.",
+    "bio2":"Now I have found a new hobby - programming. I have emendous ambition for everything that is related to building software, but my favourite thing to do is building websites.",
+    "contactmessage":"I am very interested on working on challenging projects with a positive and exciting team. Don't hesitate to send me a line.",
+    "email": "emmajonsdottir96@gmail.com",
+    "phone": "Phone 845-3055",
+    "address":{
+      "country":"Iceland",
+      "city":"Kópavogur",
+      "zip": "200"
+    },
+    "website": "https://notendur.hi.is/bjh45/",
+    "resumedownload":"https://notendur.hi.is/elj44/Resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/emma.jonsdottir",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedIn",
+        "url":"https://www.linkedin.com/in/emmalif/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"mail",
+        "url":"mailto:emmajonsdottir96@gmail.com",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/emmalif96",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I love learning new things, and here below is a brief review of my experience with programming languages.",
+    "education":[
+      {
+        "school":"University of Iceland",
+        "degree":"Computer Science BS",
+        "graduated":"2017 - 2020",
+        "description":"Bs.c in Computer Science.",
+        "img": "images/hi.png"
+      },
+      {
+        "school":"Gerlev Idrætshøjskole",
+        "degree":"Sports School",
+        "graduated":"2016",
+        "description":"Moved to Denmark to chase my hobbies and travel the world. ",
+        "img": "images/gerlev.png"
+      },
+      {
+        "school":"Menntaskólinn á Egilsstöðum",
+        "degree":"Matriculation in Natural Sciences",
+        "graduated":"2012 - 2015",
+        "description":"Graduated with with a ??",
+        "img": "images/me.gif"
+      }
+    ],
+    "work":[
+      {
+        "company":"Síminn",
+        "title":"Front End Developer",
+        "years":"2019 - 2020",
+        "description":"Developed siminn.is using Javascript. Maintained and improved the online store by adding features and imprvoing design. ",
+        "img": "images/siminn-logo.png",
+        "umsogn": "Viktor Sterinarsson, Head of software development, phone 820-5685."
+      },
+      {
+        "company":"Íþróttafélagið Gerpla / Höttur",
+        "title":"Gymnastics Coach",
+        "years":"2012 - 2019",
+        "description":"Coached competitive gymnastic teams as a part time job with school.",
+        "img": "images/gerpla-logo.png",
+        "umsogn":"Kristinn Þór Guðlaugsson, Head Coach at Gerpla, sími 849-4378."
+      },
+      {
+        "company":"Landsvirkjun",
+        "title":"Foreman",
+        "years":"2018",
+        "description":"Summer job where I worked as a foreman to lead 19 youths working in the Kárahnjúkar Area",
+        "img": "images/landsvirkjun-logo.jpg",
+        "umsogn":""
+      },
+      {
+        "company":"Lake Hotel Egilsstaðir",
+        "title":"Waitress",
+        "years":"2017",
+        "description":"Waitressing at the hotels restaurant, working shifts.",
+        "img": "images/lake-logo.pn",
+        "umsogn":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "image": "images/skills/java.jpg",
+        "info": "I have alot of experience in Java. Most of my projects from my previous job were implemented in Java. I've made several projets using Java - such as websites, webservices and apps."
+      },
+      {
+        "name":"Javascript",
+        "image": "images/skills/javascript.png",
+        "info": "My favorite programming language. I've produced many websites using javascript - both from my previous job and from school. I also like to make my own websites using this programming lanugage."      
+      },
+      {
+        "name":"Python",
+        "image": "images/skills/python2.png",
+        "info": "Simple and a neat programming language which is easy to learn, and I take pleasure in programming in. Main projects I've made using Python are in Natural Language Processing ."      
+      },
+      {
+        "name":"React",
+        "image": "images/skills/react.jpg",
+        "info": "It is great too use React when making websites, and I love working with it, for example is this website made in React. I also have experience using Next.js, Express and Apollo."
+      },
+      {
+        "name":" C++",
+        "image": "images/skills/c.png",
+        "info": "I have a basic understanding with C++. It's not my favorite programming language but it's enjoyable to make fast solutions on projects using it."      
+      },
+      {
+        "name":"Java Spring",
+        "image": "images/skills/spring.jpg",
+        "info": "I have used the Java Spring framwork alot in my projects. It's a neat tool to use in large Java projects and it's easy to use when implementing webservices."
+      },
+      {
+        "name":"Git",
+        "image": "images/skills/git.jpg",
+        "info": "One of my favorite programming tools because it smplifies all teamwork. I have alot of experience working in Git and I am very used to using this tool."
+      },
+      {
+        "name":"SQL",
+        "image": "images/skills/sql.jpg",
+        "info": "I use SQL alot when it comes to working with databases. I have used many different types of SQL such as PostreSQL, SQLite and I have also experience in GraphQL."
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Vefþjónusta fyrir vefverslun",
+        "category":"Hópverkefni 1 í vefforritun 2 - vefþjónusta fyrir vefverslun",
+        "image":"hop1.png",
+        "url":"https://bjorgvin-hop1.herokuapp.com/",
+        "giturl": "https://github.com/bjorgvinhall/Vefforritun2_Hopverkefni1"
+      },
+      {
+        "title":"Vefverslun",
+        "category":"Hópverkefni 2 í vefforritun 2 - Vefverslun sem nýtir vefþjónustu úr hópverkefni 1",
+        "image":"hop2v2.png",
+        "url":"https://veff2-hop2.herokuapp.com/",
+        "giturl": "https://github.com/emmalif96/vef2-hop2"
+      },
+      {
+        "title":"Vefþjónusta fyrir verkefnalista",
+        "category":"Einstaklingsverkefni 4 í vefforritun 2",
+        "image":"v4.png",
+        "url":"https://bjorgvin-v4.herokuapp.com/",
+        "giturl": "https://github.com/bjorgvinhall/vef2-verkefni4"
+      },
+      {
+        "title":"Verkefnalisti",
+        "category":"Einstaklingsverkefni 6 í vefforritun 2",
+        "image":"v6.png",
+        "url":"https://bjorgvin-v6.herokuapp.com/",
+        "giturl": "https://github.com/bjorgvinhall/vef2-verk6"
+      },
+      {
+        "title":"Umsóknarform",
+        "category":"Einstaklingsverkefni 3 í vefforritun 2 - umsóknarkerfi með notendaumsjón",
+        "image":"v3.png",
+        "url":"https://bjorgvin-v3.herokuapp.com/",
+        "giturl": "https://github.com/bjorgvinhall/vef2-verk3"
+      }
+    ]
+  }
+}
