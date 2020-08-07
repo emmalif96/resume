@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^4.1.0",
     "jquery": "^3.2.1",
     "react": "^16.2.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.2.0",
+    "react-fade-in": "^1.1.0",
     "react-ga": "^2.3.5",
     "react-scripts": "1.0.17"
   },

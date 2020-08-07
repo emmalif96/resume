@@ -60,9 +60,11 @@ header .banner {
    transition: all 2s ease;
 }
 
-header .banner-text { 
-   width: 100%; 
+.banner-text { 
+    width: 100%;    
+
 }
+
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -171,6 +173,24 @@ header .scrolldown a:hover { color: #11ABB0; }
 .language img {
    width: 100%;
    height: 100%;
+}
+
+.weather {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute; 
+   left: 10%;
+   top: 0%;
+   width: 80px;
+   height: 48px;
+}
+
+.weather-image{
+   margin: 10px;
+   width: 30%;
+   height: 50%;
 }
 
 .is {

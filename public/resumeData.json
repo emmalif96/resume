@@ -2,9 +2,10 @@
   "main": {
     "home": "Front page",
     "about": "About me",
-    "resume": "Resume",
+    "resume": "Resumé",
     "portfolio": "My projects",
     "contact": "Contact",
+    "info": "Information",
     "name":"Emma Líf Jónsdóttir",
     "occupation":"computer scientist",
     "predescription":"I am 23 years old ",
@@ -48,6 +49,7 @@
   },
   "resume":{
     "skillmessage":"I love learning new things, and here below is a brief review of my experience with programming languages.",
+    "educationString": "Education",
     "education":[
       {
         "school":"University of Iceland",
@@ -71,6 +73,7 @@
         "img": "images/me.gif"
       }
     ],
+    "workExperience": "Work Experience",
     "work":[
       {
         "company":"Síminn",
@@ -78,7 +81,7 @@
         "years":"2019 - 2020",
         "description":"Developed siminn.is using Javascript. Maintained and improved the online store by adding features and imprvoing design. ",
         "img": "images/siminn-logo.png",
-        "umsogn": "Viktor Sterinarsson, Head of software development, phone 820-5685."
+        "umsogn": "Reference: Viktor Sterinarsson, Head of software development, phone 820-5685."
       },
       {
         "company":"Íþróttafélagið Gerpla / Höttur",
@@ -86,7 +89,7 @@
         "years":"2012 - 2019",
         "description":"Coached competitive gymnastic teams as a part time job with school.",
         "img": "images/gerpla-logo.png",
-        "umsogn":"Kristinn Þór Guðlaugsson, Head Coach at Gerpla, sími 849-4378."
+        "umsogn":"Reference: Kristinn Þór Guðlaugsson, Head Coach at Gerpla, sími 849-4378."
       },
       {
         "company":"Landsvirkjun",
@@ -105,6 +108,7 @@
         "umsogn":""
       }
     ],
+    "favourites": "Favourites",
     "skills":[
       {
         "name":"Java",
@@ -149,41 +153,33 @@
     ]
   },
   "portfolio":{
+    "portfolioDesc": "Here is a quick review of the projects that I have made alongside a team",
     "projects": [
       {
-        "title":"Vefþjónusta fyrir vefverslun",
-        "category":"Hópverkefni 1 í vefforritun 2 - vefþjónusta fyrir vefverslun",
-        "image":"hop1.png",
-        "url":"https://bjorgvin-hop1.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/Vefforritun2_Hopverkefni1"
+        "title": "Main website for Síminn",
+        "category": "Developed all functionality for the website",
+        "image": "siminn.PNG",
+        "url": "https://siminn.is"
       },
       {
-        "title":"Vefverslun",
-        "category":"Hópverkefni 2 í vefforritun 2 - Vefverslun sem nýtir vefþjónustu úr hópverkefni 1",
+        "title": "Síminn Online Store",
+        "category": "Maintained the website and added features",
+        "image": "siminnvef.PNG",
+        "url": "https://vefverslun.siminn.is"
+      },
+      {
+        "title":"Online Store",
+        "category":"Team project at school - Online store that uses a webservice that we made",
         "image":"hop2v2.png",
         "url":"https://veff2-hop2.herokuapp.com/",
         "giturl": "https://github.com/emmalif96/vef2-hop2"
       },
       {
-        "title":"Vefþjónusta fyrir verkefnalista",
-        "category":"Einstaklingsverkefni 4 í vefforritun 2",
-        "image":"v4.png",
-        "url":"https://bjorgvin-v4.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/vef2-verkefni4"
-      },
-      {
-        "title":"Verkefnalisti",
-        "category":"Einstaklingsverkefni 6 í vefforritun 2",
-        "image":"v6.png",
-        "url":"https://bjorgvin-v6.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/vef2-verk6"
-      },
-      {
-        "title":"Umsóknarform",
-        "category":"Einstaklingsverkefni 3 í vefforritun 2 - umsóknarkerfi með notendaumsjón",
-        "image":"v3.png",
-        "url":"https://bjorgvin-v3.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/vef2-verk3"
+        "title":"Webservice for the online store",
+        "category":"Team project at school - Webservice we developed for an online store",
+        "image":"hop1.png",
+        "url":"https://bjorgvin-hop1.herokuapp.com/",
+        "giturl": "https://github.com/bjorgvinhall/Vefforritun2_Hopverkefni1"
       }
     ]
   }

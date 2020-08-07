@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Contact extends Component {
   render() {
@@ -23,6 +24,7 @@ class Contact extends Component {
                <h1><span></span></h1>
                
             </div>
+            <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
 
             <div className="ten columns">
                   <h2><span>Endilega hafðu samband</span></h2>
@@ -36,7 +38,7 @@ class Contact extends Component {
 						   <a href ="mailto:bjorgvin.hall@hotmail.com"><span>{email}</span></a>
 					   </p>
             </div>
-
+            </ScrollAnimation>
          </div>
    </section>
     );
