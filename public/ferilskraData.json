@@ -8,9 +8,9 @@
     "info": "Upplýsingar",
     "name":"Emma Líf Jónsdóttir",
     "predescription":"Tölvunarfræðingur",
-    "description":" sem útskrifaðist frá Háskóla Íslands. Jákvæður og drífandi einstaklingur sem er að leita sér af jákvæðu og öflugu teymi til að vinna með.",
+    "description":" sem útskrifaðist frá Háskóla Íslands. Jákvæður og drífandi einstaklingur sem er að leita sér að öflugu teymi til að vinna með.",
     "image":"profilepic.jpg",
-    "bio":"Er ég frá litlum sveitabæ nálægt Egilsstöðum og þar ólst ég upp. Þegar ég var 14 ára þá flutti ég til Ástralíu með fjölskyldunni minni þar sem ég er hálf áströlsk. Við fluttum aftur til Íslands þegar ég átti að byrja í menntaskóla, og fór ég þá í Menntaskólann á Egilsstöðum. Um leið og ég útskrifaðist úr menntaskóla þá flutti ég til Danmerkur til að elta áhugamálin mín og fór þá í íþróttalýðháskóla. Eftir tæpt ár flutti ég aftur til Íslands og fór fljótlega eftir það til Reykjavíkur í Háskóla",
+    "bio":"Er frá litlum sveitabæ nálægt Egilsstöðum og ólst þar upp. Þegar ég var 14 ára þá flutti ég til Ástralíu með fjölskyldunni minni þar sem ég er hálf áströlsk. Við fluttum aftur til Íslands þegar ég átti að byrja í menntaskóla, og fór þá í Menntaskólann á Egilsstöðum. Um leið og ég útskrifaðist flutti ég til Danmerkur til að elta áhugamálin mín og fór þá í íþróttalýðháskóla. Eftir tæpt ár flutti ég aftur til Íslands og byrjaði þá í námi í Háskóla Íslands.",
     "bio1":"Síðan ég man eftir mér hef ég verið í fimleikum. Fimleikar er eitt mitt helsta áhugamál og ég æfði íþróttina lengi. Síðan ég byrjaði í menntaskóla hef ég þjálfað keppnishópa og ferðast með þeim útum allt land til að keppa. Ásamt því fékk ég dómararéttindi og er í dag vel virtur fimleikadómari. Í gegnum æskuna æfði ég skák og var talin öflug í henni þar sem vann til margra verðlauna. Einnig var ég mikið í hestum þar sem ég eyddi sumrunum uppá hálendi með túristum í hestaferðum.  ",
     "bio2":"Núna hef ég fundið mér nýtt áhugamál og það er forritun. Ég hef gífurlegan metnað fyrir öllu sem tengist þróun hugbúnaðar, en mitt uppahálds undirfag tölvunarfræðínnar er vefforritun. ",
     "contactmessage":"Ég hef mikinn áhuga á vinna krefjandi verkefni í jákvæðum og skemmtilegum hóp. Ekki hika við að senda mér línu.",
@@ -21,6 +21,7 @@
       "city":"Kópavogur",
       "zip": "200"
     },
+    "contactInfo": "Endilega hafðu samband",
     "website": "https://notendur.hi.is/bjh45/",
     "resumedownload":"https://notendur.hi.is/elj44/Ferilskra.pdf",
     "social":[
@@ -54,7 +55,7 @@
         "school":"Háskóli Íslands",
         "degree":"Tölvunarfræði BS",
         "graduated":"júní 2020",
-        "description":"Bs.c í tölvunarfræði",
+        "description":"Bs.c í tölvunarfræði.",
         "img": "images/hi.png"
         
       },
@@ -62,7 +63,7 @@
         "school":"Gerlev Idrætshøjskole",
         "degree":"Íþróttalýðháskóli",
         "graduated":"2016",
-        "description":"Flutti til Danmerkur í lýðháskóla til að njóta mín í því sem ég hef mikinn áhuga á",
+        "description":"Flutti til Danmerkur í lýðháskóla til að njóta mín í því sem ég hef mikinn áhuga á.",
         "img": "images/gerlev.png"
       },
       {
@@ -79,7 +80,7 @@
         "company":"Síminn",
         "title":"Framendaforritari",
         "years":"2019 - 2020",
-        "description":"Vann sem framendaforritari og vann að ýmsum verkefnum. Þróaði nýja vefinn fyrir siminn.is og betrumbætti vefverslunina",
+        "description":"Vann sem framendaforritari og vann að ýmsum verkefnum. Þróaði nýja vefinn fyrir siminn.is og betrumbætti vefverslunina.",
         "img": "images/siminn-logo.png",
         "umsogn": "Umsagnaraðili: Viktor Sterinarsson, deildarstjóri hugbúnaðardeildar, sími 820-5685."
       },
@@ -95,7 +96,7 @@
         "company":"Landsvirkjun",
         "title":"Verkstjóri",
         "years":"2018",
-        "description":"Sumastarf þar sem ég starfaði sem verkstjóri fyrir 19 ungmenni á aldrinum 16-20 ára",
+        "description":"Sumastarf þar sem ég starfaði sem verkstjóri fyrir 19 ungmenni á aldrinum 16-20 ára.",
         "img": "images/landsvirkjun-logo.jpg",
         "umsogn":""
       },
@@ -103,7 +104,7 @@
         "company":"Lake Hotel Egilsstaðir",
         "title":"Þjónn",
         "years":"2017",
-        "description":"Starfaði í vaktavinnu sem þjónn á veitingastað hótelsins",
+        "description":"Starfaði í vaktavinnu sem þjónn á veitingastað hótelsins.",
         "img": "images/lake-logo.pn",
         "umsogn":""
       }
@@ -128,7 +129,7 @@
       {
         "name":"React",
         "image": "images/skills/react.jpg",
-        "info": "Ég á auðvelt með að vinna með React og skil hugmyndafræðina á bak við það vel. Þessi vefsíða er til dæmis gerð með React. Einnig hef ég notað Next.js framework."
+        "info": "Ég á auðvelt með að vinna með React og skil hugmyndafræðina á bak við það vel. Þessi vefsíða er til dæmis gerð með React. Einnig hef ég notað Typescript og Next.js framework."
       },
       {
         "name":" C++",
@@ -153,11 +154,12 @@
     ]
   },
   "portfolio":{
-    "portfolioDesc": "HÉR ERU NOKKUR EINSTAKLINGS- OG HÓPVERKEFN",
+    "projectOnline": "Skoða verkefni",
+    "portfolioDesc": "HÉR ERU NOKKUR VERKEFNI SEM ÉG HEF KOMIÐ AÐ",
     "projects": [
       {
         "title": "Vefsíða Símans",
-        "category": "Þróaði alla virkni fyrir heimasíðuna",
+        "category": "Þróaði virkni fyrir heimasíðuna",
         "image": "siminn.PNG",
         "url": "https://siminn.is"
       },
@@ -172,14 +174,14 @@
         "category":"Hópverkefni 2 í vefforritun 2 - Vefverslun sem nýtir vefþjónustu úr hópverkefni 1",
         "image":"hop2v2.png",
         "url":"https://veff2-hop2.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/Vefforritun2_Hopverkefni2"
+        "giturl": "https://github.com/emmalif96/vef2-hop2"
       },
       {
         "title":"Vefþjónusta fyrir vefverslun",
         "category":"Hópverkefni 1 í vefforritun 2 - vefþjónusta fyrir vefverslun",
         "image":"hop1.png",
         "url":"https://bjorgvin-hop1.herokuapp.com/",
-        "giturl": "https://github.com/bjorgvinhall/Vefforritun2_Hopverkefni1"
+        "giturl": "https://github.com/emmalif96/Vefforritun2_Hopverkefni1"
       }
     ]
   }

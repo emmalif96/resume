@@ -5,6 +5,7 @@ class Portfolio extends Component {
   render() {
     
     if(this.props.data){
+      var online = this.props.data.projectOnline;
       var portfolioDesc = this.props.data.portfolioDesc; 
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
@@ -14,8 +15,10 @@ class Portfolio extends Component {
         <div className="overlay">
         <div className="portfolio-item-meta">
         <h5>Hlekkir á verkfni</h5>
+        { projects.giturl ? 
         <a href={projects.giturl} target="_blank" rel="noopener noreferrer"><span className="fa fa-link"></span>GitHub</a>
-        <a href={projects.url} target="_blank" rel="noopener noreferrer"><span className="fa fa-link"></span>Verkfni keyrandi á vefnum</a>
+          : '' }
+        <a href={projects.url} target="_blank" rel="noopener noreferrer"><span className="fa fa-link"></span>{online}</a>
         </div>
         </div>
         <div className="item-info">
@@ -31,7 +34,7 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
       
-      <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+      <ScrollAnimation animateIn="fadeIn" delay={300} animateOnce={true}  >
       
       <div className="row">
       

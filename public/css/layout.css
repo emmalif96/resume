@@ -163,8 +163,13 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 .language {
    width: 45%;
-   padding-left: 5px;
 }
+
+.selected {
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+}
+
 
 .language:hover{
    cursor: pointer; 
@@ -193,15 +198,6 @@ header .scrolldown a:hover { color: #11ABB0; }
    height: 50%;
 }
 
-.is {
-   /* width: 40px; */
-   /* height: 35px;  */
-}
-
- .en {
-   /* height: 50px; */
-   /* width: 40px; */
-}
 
 .opaque { background-color: #333; }
 

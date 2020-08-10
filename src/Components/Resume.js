@@ -41,7 +41,7 @@ class Grades extends Component {
     <section id="resume">
     
     <div className="row education">
-    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
     
     <div className="three columns header-col">
     <h1><span>{educationString}</span></h1>
@@ -50,7 +50,7 @@ class Grades extends Component {
     
     <div className="nine columns main-col">
     <div className="row item">
-    <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+    <ScrollAnimation animateIn="fadeIn" delay={300} animateOnce={true}  >
     
     <div className="twelve columns">
     {education}
@@ -62,14 +62,14 @@ class Grades extends Component {
     
     
     <div className="row work">
-    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
     
     <div className="three columns header-col">
     <h1><span>{workString}</span></h1>
     </div>
     </ScrollAnimation>
 
-    <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+    <ScrollAnimation animateIn="fadeIn" delay={300} animateOnce={true} >
     
     <div className="nine columns main-col">
     {work}
@@ -81,14 +81,14 @@ class Grades extends Component {
     
     
     <div className="row skill">
-    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
     
     <div className="three columns header-col">
     <h1><span>{favourites}</span></h1>
     </div>
     </ScrollAnimation>
     <div>
-    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+    <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
 
     <div className="nine columns main-col">
     <p>{message}</p>
@@ -96,7 +96,7 @@ class Grades extends Component {
     </ScrollAnimation>
 
     <div className="bgrid-quarters s-bgrid-thirds cf">
-    <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true">
+    <ScrollAnimation animateIn="fadeIn" delay={300}  animateOnce={true} >
 
     <div className="skills">
     {skills}

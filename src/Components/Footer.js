@@ -11,7 +11,7 @@ class Footer extends Component {
     }
 
     return (
-      <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+      <ScrollAnimation animateIn="fadeIn" delay={300}  animateOnce={true}  >
 
       <footer>
 

@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
       foo: 'bar',
       resumeData: {},
-      isEnglish: false,
+      isEnglish: true,
       weather: {}
     };
     

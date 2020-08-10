@@ -12,6 +12,7 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var contactInfo = this.props.data.contactInfo;
     }
 
     return (
@@ -24,10 +25,10 @@ class Contact extends Component {
                <h1><span></span></h1>
                
             </div>
-            <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+            <ScrollAnimation animateIn="fadeIn" delay={300} animateOnce={true}  >
 
             <div className="ten columns">
-                  <h2><span>Endilega hafðu samband</span></h2>
+            <h2><span>{contactInfo}</span></h2>
 
                   <p>{message}</p>
 

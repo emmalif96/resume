@@ -24,7 +24,7 @@ class About extends Component {
     return (
        <section id="about">
       <div className="row">
-            <ScrollAnimation animateIn="fadeIn" animateOnce="true" delay="50">
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} >
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="" />
                <h2>{info}</h2>
@@ -36,7 +36,7 @@ class About extends Component {
 					   </p>
          </div>
                </ScrollAnimation>
-            <ScrollAnimation animateIn="fadeIn" delay="300" animateOnce="true" >
+            <ScrollAnimation animateIn="fadeIn" delay={300} animateOnce={true}  >
 
          <div className="nine columns main-col">
             <h2>{about}</h2>

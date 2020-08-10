@@ -9,12 +9,12 @@
     "name":"Emma Líf Jónsdóttir",
     "occupation":"computer scientist",
     "predescription":"I am 23 years old ",
-    "description":" graduated from the University of Iceland. I am a positive person and a progressive thinker that is looking for a job in an outstanding team to work with",
+    "description":" who recently graduated from the University of Iceland. I am a progressive thinker with a positive attitude who is looking for the opportunity to work with an outstanding team.",
     "image":"profilepic.jpg",
-    "bio":"Originally I grew up on a farm near Egilsstaðir in East Iceland. I am half australian and have an australian citizenship, and when I was 14 years old I moved there with my family. Moved back to Iceland when I was suppose to begin in Upper Seconday School. As soon as I graduated I moved to Denmark to chase my hobbies where I attended a sports school. I got home after a year and then I enrolled to the University of Iceland.",
-    "bio1":"Since I can remember I have been participating in gymnastics and it's my main hobby, I practiced it for a long time. Since I started in upper secondary school I have been coaching competitive gymnastic teams and travelled the country to attend competitions. I got a gymnastics judges certificate and today I am a well respected gymnastics judge. Throughout my childhood I practiced chess and I was considered very good at it considering I won many trophies. When I was young I did alot of horse riding and spent my summers guiding tourists on the highland.",
-    "bio2":"Now I have found a new hobby - programming. I have emendous ambition for everything that is related to building software, but my favourite thing to do is building websites.",
-    "contactmessage":"I am very interested on working on challenging projects with a positive and exciting team. Don't hesitate to send me a line.",
+    "bio":"I grew up on a farm in Fljótsdalur, near Egilsstaðir in East Iceland. I am half Australian and have Australian citizenship, and when I was 14 years old I moved there with my family. I moved back to Iceland when I began upper secondary school. As soon as I graduated I moved to Denmark to chase my hobbies and spend a year attending a sports school. On my return to Iceland I commenced my degree with the University of Iceland.",
+    "bio1":"Gymnastics has played a major role in my life and is my main hobby. I practiced it for most of my primary school years and since I started in upper secondary school I have been coaching competitive gymnastic teams and travelled the country to attend competitions. I hold a gymnastics judges certificate and today I am a well-respected gymnastics judge. Throughout my childhood I practiced chess and I was considered good at it considering that I won many trophies. When I was young I did a lot of horse riding and spent my summers with my family guiding tourists on the highlands.",
+    "bio2": "I have now added a new hobby - programming. I have tremendous ambition for everything that is related to building software, most of all building websites.",
+    "contactmessage":"I am very interested in working on challenging projects with a great team. Don't hesitate to contact me.",
     "email": "emmajonsdottir96@gmail.com",
     "phone": "Phone 845-3055",
     "address":{
@@ -22,6 +22,7 @@
       "city":"Kópavogur",
       "zip": "200"
     },
+    "contactInfo": "Contact Information",
     "website": "https://notendur.hi.is/bjh45/",
     "resumedownload":"https://notendur.hi.is/elj44/Resume.pdf",
     "social":[
@@ -69,7 +70,7 @@
         "school":"Menntaskólinn á Egilsstöðum",
         "degree":"Matriculation in Natural Sciences",
         "graduated":"2012 - 2015",
-        "description":"Graduated with with a ??",
+        "description":"Graduated ahead with good grades.",
         "img": "images/me.gif"
       }
     ],
@@ -79,9 +80,9 @@
         "company":"Síminn",
         "title":"Front End Developer",
         "years":"2019 - 2020",
-        "description":"Developed siminn.is using Javascript. Maintained and improved the online store by adding features and imprvoing design. ",
+        "description":"Developed siminn.is using Javascript. Maintained and improved the online store by adding features and improving design. ",
         "img": "images/siminn-logo.png",
-        "umsogn": "Reference: Viktor Sterinarsson, Head of software development, phone 820-5685."
+        "umsogn": "Reference: Viktor Steinarsson, Head of software development, phone 820-5685."
       },
       {
         "company":"Íþróttafélagið Gerpla / Höttur",
@@ -128,7 +129,7 @@
       {
         "name":"React",
         "image": "images/skills/react.jpg",
-        "info": "It is great too use React when making websites, and I love working with it, for example is this website made in React. I also have experience using Next.js, Express and Apollo."
+        "info": "It is great too use React when making websites, and I love working with it, for example is this website made in React. I also have experience using Typescript, Next.js, Express and Apollo."
       },
       {
         "name":" C++",
@@ -153,6 +154,7 @@
     ]
   },
   "portfolio":{
+    "projectOnline": "View project",
     "portfolioDesc": "Here is a quick review of the projects that I have made alongside a team",
     "projects": [
       {

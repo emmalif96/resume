@@ -68,7 +68,7 @@ class Weather extends Component {
         return (
             <div className="weather">
             <div className="weather-heat">{this.state.weather.temp}°</div>
-            <img className="weather-image" src={imgSrc}></img>
+            <img className="weather-image" alt="weather" src={imgSrc}></img>
             <div className="weather-location">Reykjavík</div>
             
             </div>
