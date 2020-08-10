@@ -204,6 +204,27 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
+@media only screen and (max-width: 700px) {
+   .languages{
+      left: 10%;
+      position: absolute;
+   }
+ }
+
+ @media only screen and (max-width: 700px) {
+   .languages{
+      left: 10%;
+      position: absolute;
+   }
+ }@media only screen and (max-width: 1080px) {
+   .weather-location{
+      display: none; 
+   }
+   .weather {
+      justify-content: start;
+   }
+ }
+
 ul#nav {
    min-height: 48px;
    width: auto;

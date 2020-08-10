@@ -63,14 +63,14 @@ class Header extends Component {
                      this.props.onChangeLanguage(false)
                      this.setState({ selectedLanguage: 'en' })
                   }}>
-                     <img alt="Icelandic flag" src="../images/iceland.png"></img>
+                     <img alt="Icelandic flag" src="images/iceland.png"></img>
                   </div>
                   <div className={this.state.selectedLanguage === 'en' ? "language selected": "language"} onClick={() => {
                      this.props.onChangeLanguage(true)
                      this.setState({ selectedLanguage: 'is' })
                   }}>
 
-                     <img alt="British flag" src="../images/uk.png"></img>
+                     <img alt="British flag" src="images/uk.png"></img>
                   </div>
                </div>
 

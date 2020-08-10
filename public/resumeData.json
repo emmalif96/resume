@@ -110,6 +110,7 @@
       }
     ],
     "favourites": "Favourites",
+    "attach":"Project attachments",
     "skills":[
       {
         "name":"Java",

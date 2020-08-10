@@ -24,7 +24,7 @@ class Weather extends Component {
     getWeather(){
         let self = this;
         $.ajax({
-            'url': 'http://apis.is/weather/forecasts/is',
+            'url': 'https://apis.is/weather/forecasts/is',
             'type': 'GET',
             'dataType': 'json',
             'data': {'stations': '1'},
@@ -50,18 +50,18 @@ class Weather extends Component {
     }
     render(){
         const desc = this.state.weather.desc;
-        let imgSrc = '../images/cloudy.png'
+        let imgSrc = 'images/cloudy.png'
         
         if(desc.includes('léttskýjað')){
-            imgSrc = '../images/suncloud.png'
+            imgSrc = 'images/suncloud.png'
         } else if(desc.includes('ský')){
-            imgSrc = '../images/cloudy.png'
+            imgSrc = 'images/cloudy.png'
         } else if (desc.includes('rigning') || desc.includes('slydda') || desc.includes('skúrir')) {
-            imgSrc = '../images/rain.png'
+            imgSrc = 'images/rain.png'
         } else if (desc.includes('snjó')) {
-            imgSrc = '../images/snow.png'
+            imgSrc = 'images/snow.png'
         } else if (desc.includes('heiðskírt')) {
-            imgSrc = '../images/sun.png'
+            imgSrc = 'images/sun.png'
         }
         
         
