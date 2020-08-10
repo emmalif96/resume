@@ -7,6 +7,13 @@
     "contact": "Hafa samband",
     "info": "Upplýsingar",
     "name":"Emma Líf Jónsdóttir",
+    "is": "iceland.png",
+    "en": "uk.png",
+    "cloudy": "cloudy.png",
+    "raining": "rain.png",
+    "snow": "snow.png",
+    "sun": "sun.png",
+    "sunCloud": "suncloud.png",
     "predescription":"Tölvunarfræðingur",
     "description":" sem útskrifaðist frá Háskóla Íslands. Jákvæður og drífandi einstaklingur sem er að leita sér að öflugu teymi til að vinna með.",
     "image":"profilepic.jpg",
@@ -22,7 +29,7 @@
       "zip": "200"
     },
     "contactInfo": "Endilega hafðu samband",
-    "website": "https://notendur.hi.is/bjh45/",
+    "website": "https://notendur.hi.is/elj44/",
     "resumedownload":"https://notendur.hi.is/elj44/Ferilskra.pdf",
     "social":[
       {

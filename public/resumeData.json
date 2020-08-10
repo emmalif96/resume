@@ -7,9 +7,16 @@
     "contact": "Contact",
     "info": "Information",
     "name":"Emma Líf Jónsdóttir",
+    "is": "iceland.png",
+    "en": "uk.png",
+    "cloudy": "cloudy.png",
+    "raining": "rain.png",
+    "snow": "snow.png",
+    "sun": "sun.png",
+    "sunCloud": "suncloud.png",
     "occupation":"computer scientist",
     "predescription":"I am 23 years old ",
-    "description":" who recently graduated from the University of Iceland. I am a progressive thinker with a positive attitude who is looking for the opportunity to work with an outstanding team.",
+    "description":" who recently graduated from the University of Iceland. I am a progressive thinker with a positive attitude looking for the opportunity to work with an outstanding team.",
     "image":"profilepic.jpg",
     "bio":"I grew up on a farm in Fljótsdalur, near Egilsstaðir in East Iceland. I am half Australian and have Australian citizenship, and when I was 14 years old I moved there with my family. I moved back to Iceland when I began upper secondary school. As soon as I graduated I moved to Denmark to chase my hobbies and spend a year attending a sports school. On my return to Iceland I commenced my degree with the University of Iceland.",
     "bio1":"Gymnastics has played a major role in my life and is my main hobby. I practiced it for most of my primary school years and since I started in upper secondary school I have been coaching competitive gymnastic teams and travelled the country to attend competitions. I hold a gymnastics judges certificate and today I am a well-respected gymnastics judge. Throughout my childhood I practiced chess and I was considered good at it considering that I won many trophies. When I was young I did a lot of horse riding and spent my summers with my family guiding tourists on the highlands.",
@@ -23,7 +30,7 @@
       "zip": "200"
     },
     "contactInfo": "Contact Information",
-    "website": "https://notendur.hi.is/bjh45/",
+    "website": "https://notendur.hi.is/elj44/",
     "resumedownload":"https://notendur.hi.is/elj44/Resume.pdf",
     "social":[
       {

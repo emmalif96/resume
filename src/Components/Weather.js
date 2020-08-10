@@ -24,7 +24,7 @@ class Weather extends Component {
     getWeather(){
         let self = this;
         $.ajax({
-            'url': 'http://apis.is/weather/forecasts/is',
+            'url': 'https://apis.is/weather/forecasts/is',
             'type': 'GET',
             'dataType': 'json',
             'data': {'stations': '1'},
@@ -49,19 +49,28 @@ class Weather extends Component {
         })
     }
     render(){
-        const desc = this.state.weather.desc;
-        let imgSrc = '../images/cloudy.png'
+        const desc = "/images/"+this.state.weather.desc;
+        if(this.props.data){
+
+            var cloudy = "/images/"+this.data.props.cloudy;
+            var sunCloud = "/images/"+this.data.props.sunCloud;
+            var rain = "/images/"+this.data.props.rain;
+            var sun = "/images/"+this.data.props.sun; 
+            var snow = "/images/"+this.data.props.snow;
+        }
+
+        let imgSrc = '/'
         
         if(desc.includes('léttskýjað')){
-            imgSrc = '../images/suncloud.png'
+            imgSrc = sunCloud;
         } else if(desc.includes('ský')){
-            imgSrc = '../images/cloudy.png'
+            imgSrc = cloudy;
         } else if (desc.includes('rigning') || desc.includes('slydda') || desc.includes('skúrir')) {
-            imgSrc = '../images/rain.png'
+            imgSrc = rain;
         } else if (desc.includes('snjó')) {
-            imgSrc = '../images/snow.png'
+            imgSrc = snow;
         } else if (desc.includes('heiðskírt')) {
-            imgSrc = '../images/sun.png'
+            imgSrc = sun;
         }
         
         

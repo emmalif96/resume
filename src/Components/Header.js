@@ -10,7 +10,6 @@ class Header extends Component {
          selectedLanguage: 'is'
       }
    }
-   // TODO: add state for selected language
 
    componentDidUpdate() {
    }
@@ -30,6 +29,8 @@ class Header extends Component {
          var portfolio = this.props.data.portfolio;
          var contact = this.props.data.contact;
          var name = this.props.data.name;
+         var en = "/images/" + this.props.data.en;
+         var is = "/images/" + this.props.data.is;
          var occupation = this.props.data.occupation;
          var predescription = this.props.data.predescription;
          var description = this.props.data.description;
@@ -63,14 +64,14 @@ class Header extends Component {
                      this.props.onChangeLanguage(false)
                      this.setState({ selectedLanguage: 'en' })
                   }}>
-                     <img alt="Icelandic flag" src="../images/iceland.png"></img>
+                     <img alt="Icelandic flag" src={is}></img>
                   </div>
                   <div className={this.state.selectedLanguage === 'en' ? "language selected": "language"} onClick={() => {
                      this.props.onChangeLanguage(true)
                      this.setState({ selectedLanguage: 'is' })
                   }}>
 
-                     <img alt="British flag" src="../images/uk.png"></img>
+                     <img alt="British flag" src={en}></img>
                   </div>
                </div>
 
