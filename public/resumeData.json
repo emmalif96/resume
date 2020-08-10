@@ -7,8 +7,6 @@
     "contact": "Contact",
     "info": "Information",
     "name":"Emma Líf Jónsdóttir",
-    "is": "iceland.png",
-    "en": "uk.png",
     "cloudy": "cloudy.png",
     "raining": "rain.png",
     "snow": "snow.png",
@@ -117,6 +115,7 @@
       }
     ],
     "favourites": "Favourites",
+    "attach":"Project attachments",
     "skills":[
       {
         "name":"Java",

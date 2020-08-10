@@ -6,6 +6,7 @@ class Portfolio extends Component {
     
     if(this.props.data){
       var online = this.props.data.projectOnline;
+      var attachment = this.props.data.attach;
       var portfolioDesc = this.props.data.portfolioDesc; 
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
@@ -14,7 +15,7 @@ class Portfolio extends Component {
         <img className="portfolio-item" alt={projects.title} src={projectImage} />
         <div className="overlay">
         <div className="portfolio-item-meta">
-        <h5>Hlekkir á verkfni</h5>
+        <h5>{attachment}</h5>
         { projects.giturl ? 
         <a href={projects.giturl} target="_blank" rel="noopener noreferrer"><span className="fa fa-link"></span>GitHub</a>
           : '' }
